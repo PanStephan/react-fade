@@ -1,3 +1,23 @@
+## Installation
+
+`npm install react-fade-ts`
+
+or
+
+`yarn add react-fade-ts`
+
+## Usage
+
+```
+import { FadeIn } from 'react-fade-ts';
+
+<FadeIn >
+  <div>Element 1</div>
+  <div>Element 2</div>
+</FadeIn>
+```
+
+
 Props
 
 * `delay`:  Default: 300. Delay between animation.

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 
 interface FadeInProps {
-    className: string
-    childClassName: string
-    delay: number
-    transitionDuration: number
+    className?: string
+    childClassName?: string
+    delay?: number
+    transitionDuration?: number
     children: React.ReactNode
 }
 
@@ -26,7 +26,7 @@ export const FadeIn: React.FC<FadeInProps> = x => {
 
     return (
           <div className={className}>
-                {React.Children.map(children, (child, i) => {
+                { React.Children.map(children, (child, i) => {
                       return (
                           <div
                               className={childClassName}
@@ -39,7 +39,7 @@ export const FadeIn: React.FC<FadeInProps> = x => {
                             {child}
                           </div>
                       );
-                })}
+                }) }
           </div>
     );
 };
