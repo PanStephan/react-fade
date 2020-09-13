@@ -1,6 +1,6 @@
 {
   "name": "react-fade-ts",
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "light weight lib for fadeIn effect",
   "repository": {
     "url": "git@github.com:PanStephan/react-fade.git",
@@ -9,24 +9,28 @@
   "main": "./dist/react-fade-ts.js",
   "types": "./dist/react-fade-ts.d.ts",
   "files": [
-    "dist/"
+    "dist"
   ],
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode=production"
+    "build": "webpack --config webpack.config.js --mode=production",
+    "prepublishOnly": "webpack --mode=production"
   },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "@types/hoist-non-react-statics": "^3.3.1",
     "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "hoist-non-react-statics": "^3.3.2",
     "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "ts-loader": "^8.0.3",
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
-  "peerDependencies": {
-    "react": ">=16.8.0"
-  },
+  "peerDependencies": {},
   "keywords": [
     "react",
     "typescript",

@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: "./src/index.ts",
   output: {
     path: path.join(__dirname, "./dist"),
     filename: "react-fade-ts.js",
