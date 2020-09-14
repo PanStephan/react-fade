@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import handleViewport from "./utils/handleViewport";
+import DefaultProps from "./utils/handleViewport"
 
 interface FadeInProps {
     className?: string

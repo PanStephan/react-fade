@@ -8,7 +8,7 @@ interface InViewportProps {
     ForwardedRefComponent: React.ComponentType
 }
 
-interface DefaultProps {
+export interface DefaultProps {
     className?: string
     childClassName?: string
     delay?: number

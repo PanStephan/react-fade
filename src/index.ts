@@ -1,1 +1,1 @@
-export { default as FadeIn } from "./react-fade-ts";
+export { default as FadeIn } from "./reactFadeIn";

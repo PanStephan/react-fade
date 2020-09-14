@@ -16,7 +16,6 @@ interface useInViewportPros {
 }
 
 const useInViewport: useInViewportPros = (target, config = { disconnectOnLeave: false }, props) => {
-    console.log(target)
     const { onEnterViewport, onLeaveViewport } = props;
     const [, forceUpdate] = useState(false);
 
