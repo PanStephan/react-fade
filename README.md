@@ -1,22 +1,21 @@
 ## Installation
 
-`npm install react-fade-ts`
+`npm install ts-react-fade`
 
 or
 
-`yarn add react-fade-ts`
+`yarn add ts-react-fade`
 
 ## Usage
 
 ```
-import { FadeIn } from 'react-fade-ts';
+import { FadeIn } from 'ts-react-fade';
 
 <FadeIn >
   <div>Element 1</div>
   <div>Element 2</div>
 </FadeIn>
 ```
-
 
 Props
 
@@ -25,7 +24,8 @@ Props
 * `className`:  Adds a `className` prop to the container div.
 * `childClassName`:  Adds a `className` prop to each child div, allowing you to style the direct children of the `FadeIn` component.
 
-****inspired by
+### inspired by
 
 * https://github.com/gkaemmer/react-fade-in
 * https://github.com/rnosov/react-reveal
+* https://github.com/roderickhsiao/react-in-viewport

@@ -1,19 +1,15 @@
 {
-  "name": "react-fade-ts-test",
-  "version": "0.0.10",
+  "name": "ts-react-fade",
+  "version": "0.1.5",
   "description": "light weight lib for fadeIn effect",
   "repository": {
     "url": "git@github.com:PanStephan/react-fade.git",
     "type": "git"
   },
-  "main": "./dist/react-fade-ts.js",
-  "types": "./dist/reactFadeTs.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "./react-fade-ts.js",
+  "types": "./reactFadeTs.d.ts",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production",
-    "prepublishOnly": "webpack --mode=production",
     "build:test": "rm -rf ./dist && webpack --config webpack.config.js --mode=production"
   },
   "license": "MIT",
