@@ -1,6 +1,6 @@
 {
   "name": "react-fade-ts-test",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "light weight lib for fadeIn effect",
   "repository": {
     "url": "git@github.com:PanStephan/react-fade.git",
@@ -11,9 +11,6 @@
   "files": [
     "dist"
   ],
-  "bin": {
-    "react-fade-ts": "./dist/index.js"
-  },
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production",
     "prepublishOnly": "webpack --mode=production",

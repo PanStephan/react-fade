@@ -69,6 +69,7 @@ const handleViewport: HandleViewportProps = ( TargetComponent, config = { discon
         );
     };
 
+    //@ts-ignore
     const name = TargetComponent.displayName || TargetComponent.name || 'Component';
     InViewport.displayName = `handleViewport(${name})`;
 
