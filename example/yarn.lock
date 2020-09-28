@@ -10166,6 +10166,11 @@ ts-pnp@^1.1.6:
   resolved "http://npm.perfema.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
+ts-react-fade@^0.1.5:
+  version "0.1.5"
+  resolved "http://npm.perfema.com/ts-react-fade/-/ts-react-fade-0.1.5.tgz#3449c8f7d1bb8ffe28b1a56312a954aeb438f7d4"
+  integrity sha512-yVNUjphBmNHavDj7d/aGyUURmx3wuHDsQzewh61LGzgLRbWgNXQy6jRCCwffpXbEhHzmxU4He2uUzEQk7X6prw==
+
 tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "http://npm.perfema.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
